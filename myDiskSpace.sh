@@ -24,5 +24,27 @@ case $type in
 	   exit
 esac
 
-for extension in "${extensions[@]}"; do echo "$extension"; done
+#for extension in "${extensions[@]}"; do echo "$extension"; done
 
+file=$(mktemp)
+ls -l $dir | grep -v ^total > $file
+
+while read f1 f2 f3 f4 tamfich f6 f7 f8 nomfich
+do
+
+	if [ -f "$dir/$nomfich" ]; then
+
+		extNomFich=${nomfich#*.}
+
+
+
+		let totalStorage=tamfich+totalStorage
+
+
+	fi
+
+done < $file
+
+
+
+rm $file

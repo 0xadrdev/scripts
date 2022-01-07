@@ -27,7 +27,8 @@ esac
 #for extension in "${extensions[@]}"; do echo "$extension"; done
 
 file=$(mktemp)
-ls -l $dir | grep -v ^total > $file
+ls -l "$dir" | grep -v ^total > $file
+totalStorage=0
 
 while read f1 f2 f3 f4 tamfich f6 f7 f8 nomfich
 do
@@ -36,15 +37,18 @@ do
 
 		extNomFich=${nomfich#*.}
 
-
-
-		let totalStorage=tamfich+totalStorage
-
-
+		for extension in "${extensions[@]}"; do
+			if [ "$extension" = "$extNomFich" ]; then
+				let totalStorage=tamfich+totalStorage
+			fi
+		done
 	fi
-
 done < $file
 
+let mebi=1024*1024
 
+totalStorageMib=$(echo "scale=2; $totalStorage/$mebi" | bc -l)
+
+echo "Los ficheros del tipo $type ocupan $totalStorageMib Mebibytes en el directorio $dir"
 
 rm $file

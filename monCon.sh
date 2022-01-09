@@ -1,4 +1,5 @@
-#/bin/bash
+
+#! /bin/bash
 
 
 if [ $# -lt 2 -o $# -gt 3 ]; then
@@ -30,13 +31,16 @@ do
 	HOURS=${TIME%:*}
 	HOURS=${HOURS#*(}
 
+#	echo $HOURS
+#	echo $MIN
+
 	if [ $MIN -le 09 ]; then
 		MIN=${MIN#0}
-	fi
+	fi < /dev/null > /dev/null 2>&1
 
 	if [ $HOURS -le "09" ]; then
 		HOURS=${HOURS#0}
-	fi
+	fi < /dev/null > /dev/null 2>&1
 
 	let TIME=MIN
 	let TIME+=HOURS*60

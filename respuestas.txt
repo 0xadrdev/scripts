@@ -1,0 +1,92 @@
+
+ENERO 2021
+
+2. unzip TonyStark/Iron\ Man/2008\ Iron\ Man/FromPepper.zip
+
+3. cat ProofHeart80x80.ascii
+
+4. mkdir /home/adr/exaEnero21/TonyStark/Iron\ Man/2008\ Iron\ Man/Rescue
+
+5. mv ProofHeart80x80.ascii TonyStark/Iron\ Man/2008\ Iron\ Man/Rescue/"ARC-Reactor.exe"
+
+6. cd TonyStark/Avengers/2015\ Avengers\:\ Age\ of\ Ultron/
+
+7. find ../2018\ Avengers\:\ Infinity\ War/Battle\ on\ Titan/ -name "*S?*e*" -exec chmod 544 {} \;
+
+8. ls -l ../../Captain\ America/2016\ Captain\ America\:\ Civil\ War/Rogers\'\ Team/ | tail -4
+
+9. grep -n -w Earth ../2012\ Marvel\'s\ The\ Avengers/FilmTranscript.txt | grep -v -e TH -e ow > ../ToAvengeTheEarth.txt
+
+10. find ../../Iron\ Man/ -name "*pp*o*.??g" -exec cp {} ../../Spiderman/2017\ Spider-Man\:\ Homecoming/ \;
+
+11. scp psychoLoki@teseo.act.uji.es:/home/psychoLoki/QuantumTimeTravels/MoebiusStrip ../2019\ Avengers\:\ Endgame/Morgan\ Stark/IceCream.svg
+
+JUNIO 2021
+
+2. echo -e "\n No...\n\t el monstruo es vuestro \n" > NatashaRomanoff/Avengers/2012\ Marvel\'s\ The\ Avengers/LokiRevelation.txt
+
+3. rm -r NatashaRomanoff/Black\ Widow/2020\ Black\ Widow/
+
+4. cd /home/adr/exaJunio21/NatashaRomanoff/Captain\ America/
+
+5. cp ../Iron\ Man/2010\ Iron\ Man\ 2/Black\ Widow\ -\ Natalie\ Rushman.pdf ../Avengers/2015\ Avengers\:\ Age\ of\ Ultron/"Aunt Nat.pdf"
+
+6. sort ../Thor/2017\ Thor\:\ Ragnarok/ShuffledHulkLullaby.txt | head -9
+
+7. find ../Captain\ Marvel/2019\ Captain\ Marvel/ -name "*in*" -exec chmod 654 {} \;
+
+8. grep -n -w Let ../Avengers/2019\ Avengers\:\ Endgame/FilmTranscript.txt | grep -w me | grep -v he
+
+9. find ../ -name *a?*n*.??t -print
+
+10. ssh clinbarton@lynx.uji.es
+
+11. Se usa file
+
+12. exit 
+
+ENERO 2020 
+
+2. echo -e "\tOn your left\t@@@@@\tAvengers! Assemble." > The\ Infinity\ Saga/FinalBattle.txt
+
+3. cd The\ Infinity\ Saga/Phase-3/2019-04\ Avengers\:\ Endgame/
+
+4. mv ../2019-03\ Captain\ Marvel/Captain\ Marvel\ -\ Vers.sh ../2019-03\ Captain\ Marvel/"Captain Marvel - Carol Danvers.sh"
+
+5. touch /home/adr/exaEnero20/The\ Infinity\ Saga/Phase-3/2018-02\ Black\ Panther/"Black Panther - T’Challa.mp3"
+
+6. wc -w ../../Phase-2/2015-07\ Ant-Man/QuantumRealm.txt --> 109 palabras
+
+7. find . -name "*Man*.?p?" -exec chmod 774 {} \;
+
+8. grep -n ron FilmTranscript.txt | grep -w am > ../../ByeByeThanos.txt
+
+9. find ../../ -name "*[e,E,t,T]*[e,E,T,t]*.gem"
+
+10.
+
+11.
+
+12. 
+
+
+
+JUNIO 2020
+
+1. rm -r bash/Sol/Neptuno/Voyager\ 2/
+
+2. file bash/Sol/Marte/Deimos (El formato del fichero es JPEG)
+
+3. mv bash/Sol/Marte/Deimos bash/Sol/Marte/Deimos.jpg
+
+4. head -20 bash/Sol/Cometas.txt | tail -6
+
+5. cd bash/Sol/Venus/
+
+6. chmod 755 ../Saturno/[H,T]*n.txt
+
+7. grep -n -w -e Houston ../Tierra/Luna/Apollo13.txt | grep -v i | grep -w a > ../Tierra/JimLovellAlerts.txt
+
+8. find ../ -name *[a,e]*i*[o,u]*
+
+9.  wget -r http://teseo.act.uji.es/Estrellas/
